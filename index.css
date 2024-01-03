@@ -4,17 +4,21 @@
 }
 
 h1 {
-    font-family: norseBold;
+    font-family: norseBold, sans-serif;
 }
 
 .main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     width: 100vw;
+    height: 100vh;
 }
 
-.left, .right {
+.left {
+    background-image: url(/imgs/halie-west.jpg)';
+    width: 35vw;
+} 
+.right {
     display: flex;
     justify-content: center;
 }
