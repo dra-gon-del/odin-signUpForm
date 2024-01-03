@@ -6,3 +6,8 @@
 h1 {
     font-family: norseBold;
 }
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
