@@ -36,7 +36,10 @@ body {
 .first {
     height: 33vh;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: end;
+    margin-left: 5%;
+    margin-bottom: 5px;
 }
 
 .second {
