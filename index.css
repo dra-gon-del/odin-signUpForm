@@ -24,6 +24,7 @@ body {
     width: 35vw;
     background-repeat: no-repeat;
     background-size: auto;
+    color: white;
 } 
 .right {
     display: flex;
