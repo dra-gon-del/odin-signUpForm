@@ -29,10 +29,14 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
 }
 
 .first {
     height: 33vh;
+    display: flex;
+    justify-content: center;
 }
 
 .second {
