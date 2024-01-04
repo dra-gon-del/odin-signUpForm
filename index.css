@@ -30,3 +30,15 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.first {
+    height: 33vh;
+}
+
+.second {
+    height: 33vh;
+}
+
+.third {
+    height: 33vh;
+}
