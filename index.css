@@ -7,6 +7,11 @@ h1 {
     font-family: norseBold, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -15,8 +20,10 @@ h1 {
 }
 
 .left {
-    background-image: url(imgs/halie-west.jpg);
+    background-image: url(imgs/halie-west-sml.jpg);
     width: 35vw;
+    background-repeat: no-repeat;
+    background-size: auto;
 } 
 .right {
     display: flex;
