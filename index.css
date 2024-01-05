@@ -64,6 +64,17 @@ form.divs{}
     margin-bottom: 10px;
 }
 
+input{
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 1px;
+}
+
 .third {
     height: 33vh;
 }
