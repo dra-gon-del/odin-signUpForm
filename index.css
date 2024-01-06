@@ -72,7 +72,11 @@ input{
 }
 
 input:focus{
-    border: 1px;
+    border: 1px solid blue;
+}
+
+input:invalid{
+    border: 1px solid red;
 }
 
 .third {
