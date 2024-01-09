@@ -26,6 +26,8 @@ body {
     background-repeat: no-repeat;
     background-size: auto;
     color: white;
+    display: flex;
+    flex-direction: column;
 } 
 .right {
     display: flex;
@@ -125,4 +127,28 @@ a{
     color: #596d48;
     text-decoration: none;
     font-weight: bold;
+}
+
+.forFooter{
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    padding-right: 5px;
+    width: 100%;
+}
+
+.forImage{
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.semiTransparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0.4;
 }
