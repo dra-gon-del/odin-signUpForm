@@ -49,14 +49,16 @@ body {
 }
 
 .secondTitle{
-    margin-left: 40px;
-    margin-top: ;
+    margin-left: 43px;
+    padding-top: 20px;
+
 }
 
 .form-main-div {
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: 45px;
+    margin-top: 30px;
     width: 60%;
     justify-content: space-between;
 }
@@ -102,8 +104,23 @@ label{
     border-radius: 10px;
     height: 45px;
     width: 200px;
+    font-weight: bolder;
+    font-size: small;
 }
 
 .third {
     margin: 20px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.hyperlink{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+a{
+    color: #596d48;
+    text-decoration: none;
+    font-weight: bold;
 }
