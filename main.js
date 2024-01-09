@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     
     let error = document.querySelector("#error");
 
-    if(password != confirmPassword){
-        error.textContent = "*Passwords do not match!*"
+    if(password == confirmPassword){
+        error.textContent = ""
     }
     
     console.log("hi")

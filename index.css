@@ -79,6 +79,11 @@ input:invalid{
     border: 1px solid red;
 }
 
+label{
+    font-size: 15px;
+    color: #3b3b3c;
+}
+
 .third {
     height: 33vh;
 }
