@@ -48,6 +48,11 @@ body {
     height: 33vh;
 }
 
+.secondTitle{
+    margin-left: 40px;
+    margin-top: ;
+}
+
 .form-main-div {
     display: flex;
     flex-direction: row;
@@ -86,9 +91,19 @@ label{
 
 #error {
     color: red;
-    font: 10px;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.btn-green{
+    background-color: #596d48;
+    color: white;
+    border: 1px solid #596d48;
+    border-radius: 10px;
+    height: 45px;
+    width: 200px;
 }
 
 .third {
-    height: 33vh;
+    margin: 20px;
 }

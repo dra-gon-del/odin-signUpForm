@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", function() {
     
     let error = document.querySelector("#error");
 
-    if (password = "" && confirmPassword = ""){
-        error.textContent = "*passwords do not match*";
+    if (password === confirmPassword){
+        error.textContent = "blank";
     }
-    else if(password == confirmPassword){
-        error.textContent = "";
+    else if(password !== confirmPassword){
+        error.textContent = "*passwords do not match*";
     }
     
     console.log("hi")
